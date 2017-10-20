@@ -4,6 +4,8 @@ import android.app.Application;
 import android.arch.persistence.room.Room;
 
 import com.example.cpu11112_local.testgithub.api.GithubService;
+import com.example.cpu11112_local.testgithub.db.GithubDb;
+import com.example.cpu11112_local.testgithub.db.UserDao;
 import com.example.cpu11112_local.testgithub.util.LiveDataCallAdapterFactory;
 
 import javax.inject.Singleton;

@@ -29,6 +29,7 @@ public class Repo {
     @SerializedName("stargazers_count")
     public final int stars;
     @SerializedName("owner")
+    // note - embedded with "owner" before other table
     @Embedded(prefix = "owner_")
     public final Owner owner;
 
