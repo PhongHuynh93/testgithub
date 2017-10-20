@@ -1,6 +1,11 @@
 package com.example.cpu11112_local.testgithub.api;
 
+import android.arch.lifecycle.LiveData;
+
+import com.example.cpu11112_local.testgithub.vo.Repo;
 import com.example.cpu11112_local.testgithub.vo.User;
+
+import java.util.List;
 
 import retrofit2.http.GET;
 import retrofit2.http.Path;
