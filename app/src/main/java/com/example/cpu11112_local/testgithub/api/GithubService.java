@@ -1,5 +1,7 @@
 package com.example.cpu11112_local.testgithub.api;
 
+import com.example.cpu11112_local.testgithub.vo.User;
+
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
