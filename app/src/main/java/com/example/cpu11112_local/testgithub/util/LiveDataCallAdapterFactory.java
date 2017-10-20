@@ -2,6 +2,8 @@ package com.example.cpu11112_local.testgithub.util;
 
 import android.arch.lifecycle.LiveData;
 
+import com.example.cpu11112_local.testgithub.api.ApiResponse;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

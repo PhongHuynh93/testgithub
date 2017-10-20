@@ -30,6 +30,7 @@ public interface GithubService {
     @GET("repos/{owner}/{name}/contributors")
     LiveData<ApiResponse<List<Contributor>>> getContributors(@Path("owner") String owner, @Path("name") String name);
 
+    // note - not the table in room
     @GET("search/repositories")
     LiveData<ApiResponse<RepoSearchResponse>> searchRepos(@Query("q") String query);
 
