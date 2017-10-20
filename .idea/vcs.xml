@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/CleanSample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MovieNanoDegree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/N26AndroidSamples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spotify-nanodegree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Switchman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spotify_sample/android-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tivi" vcs="Git" />
+  </component>
+</project>
