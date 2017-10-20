@@ -2,6 +2,7 @@ package com.example.cpu11112_local.testgithub.api;
 
 import android.arch.lifecycle.LiveData;
 
+import com.example.cpu11112_local.testgithub.vo.Contributor;
 import com.example.cpu11112_local.testgithub.vo.Repo;
 import com.example.cpu11112_local.testgithub.vo.User;
 
