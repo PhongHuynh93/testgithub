@@ -3,6 +3,8 @@ package com.example.cpu11112_local.testgithub;
 import android.app.Activity;
 import android.app.Application;
 
+import com.example.cpu11112_local.testgithub.di.AppInjector;
+
 import javax.inject.Inject;
 
 import dagger.android.DispatchingAndroidInjector;

@@ -1,6 +1,10 @@
 package com.example.cpu11112_local.testgithub.di;
 
+import android.app.Application;
+import android.arch.persistence.room.Room;
+
 import com.example.cpu11112_local.testgithub.api.GithubService;
+import com.example.cpu11112_local.testgithub.util.LiveDataCallAdapterFactory;
 
 import javax.inject.Singleton;
 
@@ -29,8 +33,8 @@ public class AppModule {
 
     @Singleton
     @Provides
-    GithubDb provideGithubDb() {
-
+    GithubDb provideGithubDb(Application app) {
+        return Room.databaseBuilder(app, GithubDb.class, "github.db").build();
     }
 
     @Singleton
