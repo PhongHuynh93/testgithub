@@ -1,6 +1,7 @@
 package com.example.cpu11112_local.testgithub.vo;
 
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Index;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -8,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
  * Created by CPU11112-local on 10/20/2017.
  */
 // note - can put login here or above login field
-@Entity(primaryKeys = "login")
+@Entity(primaryKeys = "login", indices = {@Index("login")})
 public class User {
     @SerializedName("login")
     public final String login;
